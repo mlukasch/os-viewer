@@ -3,3 +3,5 @@ settings.json
 node_modules
 .idea
 .projectile
+!node_modules/babbage.ui
+nohup.out

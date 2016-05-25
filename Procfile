@@ -1,1 +1,1 @@
-web: npm install && port=$PORT npm start
+web: npm install && npm start
