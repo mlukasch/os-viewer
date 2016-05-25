@@ -3,14 +3,6 @@ settings.json
 .idea
 .projectile
 node_modules/*
-!node_modules/babbage.ui/*
-!node_modules/babbage.ui/dist/
-!node_modules/babbage.ui/dist
-!node_modules/babbage.ui/dist/*
-!node_modules/babbage.ui/dist/**/*
-!node_modules/babbage.ui/lib/
-!node_modules/babbage.ui/lib/*
-!node_modules/babbage.ui/lib/**/*
-!node_modules/babbage.ui/lib
+!node_modules/babbage.ui/
 node_modules/babbage.ui/.gitignore
 nohup.out
