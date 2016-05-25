@@ -1,8 +1,9 @@
 *.log
 settings.json
-node_modules/*
 .idea
 .projectile
-!node_modules/babbage.ui/dist
-!node_modules/babbage.ui/lib
+node_modules/*
+node_modules/babbage.ui/.gitignore
+!node_modules/babbage.ui/dist/
+!node_modules/babbage.ui/lib/
 nohup.out
