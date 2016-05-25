@@ -6,7 +6,7 @@
   "main": "index.js",
   "scripts": {
     "install": "napa \"eligrey/FileSaver.js:file-saver\"",
-    "postinstall": "cd node_modules/babbage.ui/ && npm run prepublish && cd ../.. && npm run build",
+    "postinstall": "cd node_modules/babbage.ui && npm run prepublish && cd ../.. && npm run build",
     "start": "node index.js",
     "test": "mocha tests/*.js",
     "review": "jscs app tests",
@@ -36,6 +36,7 @@
   "bugs": "https://github.com/openspending/os-viewer/issues",
   "homepage": "https://github.com/openspending/os-viewer#readme",
   "dependencies": {
+    "babbage.ui": "git+https://github.com/mlukasch/babbage.ui.git",
     "bluebird": "^3.0.5",
     "body-parser": "^1.14.1",
     "express": "^4.13.3",
