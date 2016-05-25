@@ -6,7 +6,7 @@
   "main": "index.js",
   "scripts": {
     "install": "napa \"eligrey/FileSaver.js:file-saver\"",
-    "postinstall": "cd node_modules/babbage.ui && npm install && npm run build && cd ../.. && npm run build",
+    "postinstall": "npm run build",
     "start": "node index.js",
     "test": "mocha tests/*.js",
     "review": "jscs app tests",
