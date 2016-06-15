@@ -1,5 +1,6 @@
 heroku config:set NPM_CONFIG_PRODUCTION=true
 heroku config:set NPM_CONFIG_PRODUCTION=false
+heroku config:set NODEMODULESCACHE=false
 heroku config:set WEB_CONCURRENCY=1
 heroku config:set OS_VIEWER_API_HOST=$(heroku info -s | grep web-url | cut -d= -f2)
 heroku config:set OS_VIEWER_AUTH_HOST=$(heroku info -s | grep web-url | cut -d= -f2)
